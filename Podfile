@@ -19,5 +19,14 @@ target 'AccountKit' do
 
  pod 'AccountKit'
 
+end
+
+ target 'FB_login' do
+
+ pod 'FBSDKCoreKit'
+ pod 'FBSDKLoginKit'
 
 end
+
+
+
