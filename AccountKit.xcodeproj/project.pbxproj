@@ -15,6 +15,14 @@
 		110F51DB1F95E33E00D9B946 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 110F51D91F95E33E00D9B946 /* LaunchScreen.storyboard */; };
 		110F51E61F95E33F00D9B946 /* AccountKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 110F51E51F95E33F00D9B946 /* AccountKitTests.m */; };
 		110F51F11F95E33F00D9B946 /* AccountKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 110F51F01F95E33F00D9B946 /* AccountKitUITests.m */; };
+		110F52091F9EEE1C00D9B946 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 110F52081F9EEE1C00D9B946 /* main.m */; };
+		110F520C1F9EEE1C00D9B946 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 110F520B1F9EEE1C00D9B946 /* AppDelegate.m */; };
+		110F520F1F9EEE1C00D9B946 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 110F520E1F9EEE1C00D9B946 /* ViewController.m */; };
+		110F52121F9EEE1C00D9B946 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 110F52101F9EEE1C00D9B946 /* Main.storyboard */; };
+		110F52141F9EEE1C00D9B946 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 110F52131F9EEE1C00D9B946 /* Assets.xcassets */; };
+		110F52171F9EEE1C00D9B946 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 110F52151F9EEE1C00D9B946 /* LaunchScreen.storyboard */; };
+		110F52221F9EEE1C00D9B946 /* FB_loginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 110F52211F9EEE1C00D9B946 /* FB_loginTests.m */; };
+		110F522D1F9EEE1C00D9B946 /* FB_loginUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 110F522C1F9EEE1C00D9B946 /* FB_loginUITests.m */; };
 		2AB04BC0D037458772ACE580 /* libPods-AccountKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4504662408E2D2B458257E12 /* libPods-AccountKit.a */; };
 		51D02B336A409C4DCAE34CE2 /* libPods-AccountKitTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5297765B5EE3A4765FD92900 /* libPods-AccountKitTests.a */; };
 		B3C02F3E28D3AB355D62365F /* libPods-AccountKitUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 098529D711BFA16990B01263 /* libPods-AccountKitUITests.a */; };
@@ -34,6 +42,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = 110F51C71F95E33E00D9B946;
 			remoteInfo = AccountKit;
+		};
+		110F521E1F9EEE1C00D9B946 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 110F51C01F95E33E00D9B946 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 110F52041F9EEE1C00D9B946;
+			remoteInfo = FB_login;
+		};
+		110F52291F9EEE1C00D9B946 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 110F51C01F95E33E00D9B946 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 110F52041F9EEE1C00D9B946;
+			remoteInfo = FB_login;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -55,6 +77,22 @@
 		110F51EC1F95E33F00D9B946 /* AccountKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccountKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		110F51F01F95E33F00D9B946 /* AccountKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccountKitUITests.m; sourceTree = "<group>"; };
 		110F51F21F95E33F00D9B946 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		110F52051F9EEE1C00D9B946 /* FB_login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FB_login.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		110F52081F9EEE1C00D9B946 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		110F520A1F9EEE1C00D9B946 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		110F520B1F9EEE1C00D9B946 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		110F520D1F9EEE1C00D9B946 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		110F520E1F9EEE1C00D9B946 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		110F52111F9EEE1C00D9B946 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		110F52131F9EEE1C00D9B946 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		110F52161F9EEE1C00D9B946 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		110F52181F9EEE1C00D9B946 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		110F521D1F9EEE1C00D9B946 /* FB_loginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FB_loginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		110F52211F9EEE1C00D9B946 /* FB_loginTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FB_loginTests.m; sourceTree = "<group>"; };
+		110F52231F9EEE1C00D9B946 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		110F52281F9EEE1C00D9B946 /* FB_loginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FB_loginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		110F522C1F9EEE1C00D9B946 /* FB_loginUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FB_loginUITests.m; sourceTree = "<group>"; };
+		110F522E1F9EEE1C00D9B946 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D73669C03EFA06B0F519E59 /* Pods-AccountKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccountKitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AccountKitTests/Pods-AccountKitTests.release.xcconfig"; sourceTree = "<group>"; };
 		4504662408E2D2B458257E12 /* libPods-AccountKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AccountKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5297765B5EE3A4765FD92900 /* libPods-AccountKitTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AccountKitTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -90,6 +128,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		110F52021F9EEE1C00D9B946 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		110F521A1F9EEE1C00D9B946 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		110F52251F9EEE1C00D9B946 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -112,6 +171,9 @@
 				110F51CA1F95E33E00D9B946 /* AccountKit */,
 				110F51E41F95E33F00D9B946 /* AccountKitTests */,
 				110F51EF1F95E33F00D9B946 /* AccountKitUITests */,
+				110F52061F9EEE1C00D9B946 /* FB_login */,
+				110F52201F9EEE1C00D9B946 /* FB_loginTests */,
+				110F522B1F9EEE1C00D9B946 /* FB_loginUITests */,
 				110F51C91F95E33E00D9B946 /* Products */,
 				0FB6A889115E1DF998EC668D /* Pods */,
 				ED2EEF465828339650D83F60 /* Frameworks */,
@@ -124,6 +186,9 @@
 				110F51C81F95E33E00D9B946 /* AccountKit.app */,
 				110F51E11F95E33F00D9B946 /* AccountKitTests.xctest */,
 				110F51EC1F95E33F00D9B946 /* AccountKitUITests.xctest */,
+				110F52051F9EEE1C00D9B946 /* FB_login.app */,
+				110F521D1F9EEE1C00D9B946 /* FB_loginTests.xctest */,
+				110F52281F9EEE1C00D9B946 /* FB_loginUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -168,6 +233,48 @@
 				110F51F21F95E33F00D9B946 /* Info.plist */,
 			);
 			path = AccountKitUITests;
+			sourceTree = "<group>";
+		};
+		110F52061F9EEE1C00D9B946 /* FB_login */ = {
+			isa = PBXGroup;
+			children = (
+				110F520A1F9EEE1C00D9B946 /* AppDelegate.h */,
+				110F520B1F9EEE1C00D9B946 /* AppDelegate.m */,
+				110F520D1F9EEE1C00D9B946 /* ViewController.h */,
+				110F520E1F9EEE1C00D9B946 /* ViewController.m */,
+				110F52101F9EEE1C00D9B946 /* Main.storyboard */,
+				110F52131F9EEE1C00D9B946 /* Assets.xcassets */,
+				110F52151F9EEE1C00D9B946 /* LaunchScreen.storyboard */,
+				110F52181F9EEE1C00D9B946 /* Info.plist */,
+				110F52071F9EEE1C00D9B946 /* Supporting Files */,
+			);
+			path = FB_login;
+			sourceTree = "<group>";
+		};
+		110F52071F9EEE1C00D9B946 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				110F52081F9EEE1C00D9B946 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		110F52201F9EEE1C00D9B946 /* FB_loginTests */ = {
+			isa = PBXGroup;
+			children = (
+				110F52211F9EEE1C00D9B946 /* FB_loginTests.m */,
+				110F52231F9EEE1C00D9B946 /* Info.plist */,
+			);
+			path = FB_loginTests;
+			sourceTree = "<group>";
+		};
+		110F522B1F9EEE1C00D9B946 /* FB_loginUITests */ = {
+			isa = PBXGroup;
+			children = (
+				110F522C1F9EEE1C00D9B946 /* FB_loginUITests.m */,
+				110F522E1F9EEE1C00D9B946 /* Info.plist */,
+			);
+			path = FB_loginUITests;
 			sourceTree = "<group>";
 		};
 		ED2EEF465828339650D83F60 /* Frameworks */ = {
@@ -245,6 +352,59 @@
 			productReference = 110F51EC1F95E33F00D9B946 /* AccountKitUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		110F52041F9EEE1C00D9B946 /* FB_login */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 110F52351F9EEE1C00D9B946 /* Build configuration list for PBXNativeTarget "FB_login" */;
+			buildPhases = (
+				110F52011F9EEE1C00D9B946 /* Sources */,
+				110F52021F9EEE1C00D9B946 /* Frameworks */,
+				110F52031F9EEE1C00D9B946 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FB_login;
+			productName = FB_login;
+			productReference = 110F52051F9EEE1C00D9B946 /* FB_login.app */;
+			productType = "com.apple.product-type.application";
+		};
+		110F521C1F9EEE1C00D9B946 /* FB_loginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 110F52361F9EEE1C00D9B946 /* Build configuration list for PBXNativeTarget "FB_loginTests" */;
+			buildPhases = (
+				110F52191F9EEE1C00D9B946 /* Sources */,
+				110F521A1F9EEE1C00D9B946 /* Frameworks */,
+				110F521B1F9EEE1C00D9B946 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				110F521F1F9EEE1C00D9B946 /* PBXTargetDependency */,
+			);
+			name = FB_loginTests;
+			productName = FB_loginTests;
+			productReference = 110F521D1F9EEE1C00D9B946 /* FB_loginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		110F52271F9EEE1C00D9B946 /* FB_loginUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 110F52371F9EEE1C00D9B946 /* Build configuration list for PBXNativeTarget "FB_loginUITests" */;
+			buildPhases = (
+				110F52241F9EEE1C00D9B946 /* Sources */,
+				110F52251F9EEE1C00D9B946 /* Frameworks */,
+				110F52261F9EEE1C00D9B946 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				110F522A1F9EEE1C00D9B946 /* PBXTargetDependency */,
+			);
+			name = FB_loginUITests;
+			productName = FB_loginUITests;
+			productReference = 110F52281F9EEE1C00D9B946 /* FB_loginUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -271,6 +431,23 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = 110F51C71F95E33E00D9B946;
 					};
+					110F52041F9EEE1C00D9B946 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = BSPG965L6Z;
+						ProvisioningStyle = Automatic;
+					};
+					110F521C1F9EEE1C00D9B946 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = BSPG965L6Z;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 110F52041F9EEE1C00D9B946;
+					};
+					110F52271F9EEE1C00D9B946 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = BSPG965L6Z;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 110F52041F9EEE1C00D9B946;
+					};
 				};
 			};
 			buildConfigurationList = 110F51C31F95E33E00D9B946 /* Build configuration list for PBXProject "AccountKit" */;
@@ -289,6 +466,9 @@
 				110F51C71F95E33E00D9B946 /* AccountKit */,
 				110F51E01F95E33F00D9B946 /* AccountKitTests */,
 				110F51EB1F95E33F00D9B946 /* AccountKitUITests */,
+				110F52041F9EEE1C00D9B946 /* FB_login */,
+				110F521C1F9EEE1C00D9B946 /* FB_loginTests */,
+				110F52271F9EEE1C00D9B946 /* FB_loginUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -312,6 +492,30 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		110F51EA1F95E33F00D9B946 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		110F52031F9EEE1C00D9B946 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				110F52171F9EEE1C00D9B946 /* LaunchScreen.storyboard in Resources */,
+				110F52141F9EEE1C00D9B946 /* Assets.xcassets in Resources */,
+				110F52121F9EEE1C00D9B946 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		110F521B1F9EEE1C00D9B946 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		110F52261F9EEE1C00D9B946 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -485,6 +689,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		110F52011F9EEE1C00D9B946 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				110F520F1F9EEE1C00D9B946 /* ViewController.m in Sources */,
+				110F520C1F9EEE1C00D9B946 /* AppDelegate.m in Sources */,
+				110F52091F9EEE1C00D9B946 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		110F52191F9EEE1C00D9B946 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				110F52221F9EEE1C00D9B946 /* FB_loginTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		110F52241F9EEE1C00D9B946 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				110F522D1F9EEE1C00D9B946 /* FB_loginUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -497,6 +727,16 @@
 			isa = PBXTargetDependency;
 			target = 110F51C71F95E33E00D9B946 /* AccountKit */;
 			targetProxy = 110F51ED1F95E33F00D9B946 /* PBXContainerItemProxy */;
+		};
+		110F521F1F9EEE1C00D9B946 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 110F52041F9EEE1C00D9B946 /* FB_login */;
+			targetProxy = 110F521E1F9EEE1C00D9B946 /* PBXContainerItemProxy */;
+		};
+		110F522A1F9EEE1C00D9B946 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 110F52041F9EEE1C00D9B946 /* FB_login */;
+			targetProxy = 110F52291F9EEE1C00D9B946 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -513,6 +753,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				110F51DA1F95E33E00D9B946 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		110F52101F9EEE1C00D9B946 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				110F52111F9EEE1C00D9B946 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		110F52151F9EEE1C00D9B946 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				110F52161F9EEE1C00D9B946 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -690,6 +946,80 @@
 			};
 			name = Release;
 		};
+		110F522F1F9EEE1C00D9B946 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BSPG965L6Z;
+				INFOPLIST_FILE = FB_login/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joejoejoseph.FB-login";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		110F52301F9EEE1C00D9B946 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BSPG965L6Z;
+				INFOPLIST_FILE = FB_login/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joejoejoseph.FB-login";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		110F52311F9EEE1C00D9B946 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BSPG965L6Z;
+				INFOPLIST_FILE = FB_loginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joejoejoseph.FB-loginTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FB_login.app/FB_login";
+			};
+			name = Debug;
+		};
+		110F52321F9EEE1C00D9B946 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BSPG965L6Z;
+				INFOPLIST_FILE = FB_loginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joejoejoseph.FB-loginTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FB_login.app/FB_login";
+			};
+			name = Release;
+		};
+		110F52331F9EEE1C00D9B946 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = BSPG965L6Z;
+				INFOPLIST_FILE = FB_loginUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joejoejoseph.FB-loginUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FB_login;
+			};
+			name = Debug;
+		};
+		110F52341F9EEE1C00D9B946 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = BSPG965L6Z;
+				INFOPLIST_FILE = FB_loginUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joejoejoseph.FB-loginUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FB_login;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -728,6 +1058,30 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		110F52351F9EEE1C00D9B946 /* Build configuration list for PBXNativeTarget "FB_login" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				110F522F1F9EEE1C00D9B946 /* Debug */,
+				110F52301F9EEE1C00D9B946 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		110F52361F9EEE1C00D9B946 /* Build configuration list for PBXNativeTarget "FB_loginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				110F52311F9EEE1C00D9B946 /* Debug */,
+				110F52321F9EEE1C00D9B946 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		110F52371F9EEE1C00D9B946 /* Build configuration list for PBXNativeTarget "FB_loginUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				110F52331F9EEE1C00D9B946 /* Debug */,
+				110F52341F9EEE1C00D9B946 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
